@@ -1,2 +1,5 @@
 # Environnement virtuel de l'application
 .venv
+
+# Fichier de base de donnée
+db.sqlite3
