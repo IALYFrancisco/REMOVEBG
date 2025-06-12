@@ -8,11 +8,10 @@ from rembg import remove
 from PIL import Image, ImageEnhance
 import numpy as np
 import cv2
-
 from rembg import remove, new_session  # <-- ajout de new_session
 
 
-class Index(APIView):
+class V1(APIView):
     parser_classes = [MultiPartParser, FormParser]
 
     def post(self, request, format=None):
