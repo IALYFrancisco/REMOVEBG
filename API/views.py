@@ -215,7 +215,7 @@ import io
 from rembg import remove, new_session  # <-- ajout de new_session
 
 
-class Index(APIView):
+class V5(APIView):
     parser_classes = [MultiPartParser, FormParser]
 
     def post(self, request, format=None):

@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import Index
+from .views import V5
 
 urlpatterns = [
-    path('v5', Index.as_view(), name="RemoveBackground")
+    path('v5', V5.as_view(), name="RemoveBackground")
 ]
